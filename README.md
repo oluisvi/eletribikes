@@ -6,6 +6,6 @@ Conceito baseado no catálogo do WhatsApp. Fotos das bikes vêm do fabricante; f
 
 ## Fontes de fotos e conteúdo
 
-FLASH R002 and X20 Pro photos from manufacturer product pages https://www.flashbr.com.br/product-page/e-bike-r002 and https://www.flashbr.com.br/product-page/e-bike-x20-pro. Baby product images, names and prices are from the WhatsApp catalog shared by Vinicius on 27/10/2026. PaulimarBaby’s Linktree, which routes orders by region and links its catalog, is https://linktr.ee/paulimarbaby.
+FLASH R002 and X20 Pro photos from manufacturer product pages https://www.flashbr.com.br/product-page/e-bike-r002 and https://www.flashbr.com.br/product-page/e-bike-x20-pro. Baby product images, names and prices are from the WhatsApp catalog shared by Vinicius on 27/10/2026. The displayed sections are Jogos de quarto 2025, Berços de madeira, Banheiras, Berço portátil, Cadeirinhas para carro, Carrinhos and Bebê reborn; the WhatsApp catalog has more items and all values should be confirmed. PaulimarBaby’s Linktree, which routes orders by region and links its catalog, is https://linktr.ee/paulimarbaby.
 
 As imagens permanecem identificadas nos textos alternativos e não são tratadas como estoque garantido.
