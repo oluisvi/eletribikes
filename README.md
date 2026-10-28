@@ -1,6 +1,6 @@
 # EletriBikes — catálogo conceito
 
-Protótipo independente da EletriBikes, separado do projeto PaulimarBaby a pedido do usuário após feedback do Vinicius. O site oferece três direções visuais selecionáveis: Editorial, Trajeto e Ficha. A navegação inclui busca, seleção por modelo, comparação lado a lado e perguntas pré-preenchidas por WhatsApp, inspirada no fluxo de categoria, busca, comparação e contato do VÉLO.
+Protótipo independente da EletriBikes, separado do projeto PaulimarBaby a pedido do usuário após feedback do Vinicius. O site oferece três direções visuais selecionáveis: Editorial, Trajeto e Ficha. A navegação inclui busca, seleção por modelo, comparação lado a lado e perguntas pré-preenchidas por WhatsApp, inspirada no fluxo de categoria, busca, comparação e contato do VÉLO. A estrutura visual parte do mobile, com controles de toque confortáveis e layouts maiores aplicados progressivamente.
 
 ## Conteúdo e limites
 
@@ -17,3 +17,4 @@ Abra `index.html`. Os botões no topo alternam entre três composições complet
 ## Publicação
 
 GitHub Pages por workflow em `.github/workflows/pages.yml`. A pasta foi separada do material da PaulimarBaby. O arquivo privado `images/catalogo-baby-enviado.jpg` não faz parte do commit nem do site.
+
