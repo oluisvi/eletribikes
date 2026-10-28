@@ -171,3 +171,22 @@ dialog{max-width:calc(100vw - 24px);padding:22px}
   footer .wordmark,footer span{grid-column:auto}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.motion-ready [data-reveal]{opacity:1;transform:none}}
+/* Brand-specific catalog views */
+[hidden]{display:none!important}
+.brand-switch{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:12px 15px;border-bottom:1px solid var(--line);background:var(--paper,#f5f3ec)}
+.brand-switch>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-right:8px;opacity:.65}
+.brand-switch button{font:inherit;font-size:13px;font-weight:700;border:1px solid currentColor;border-radius:999px;padding:9px 16px;background:transparent;color:inherit;cursor:pointer;transition:background .2s,color .2s,transform .2s}
+.brand-switch button:hover{transform:translateY(-2px)}
+.brand-switch button[aria-pressed="true"]{background:var(--ink,#14231d);color:var(--paper,#fff)}
+.brand-switch button:focus-visible{outline:3px solid #de8e50;outline-offset:3px}
+.baby-panel{grid-template-columns:minmax(0,1fr)!important;overflow:hidden}
+.baby-panel h1{font-size:clamp(2.4rem,7vw,5.5rem);line-height:1.04;max-width:12ch;margin:.15em 0 .35em}
+.baby-cover{width:100%;min-height:280px;overflow:hidden;border-radius:22px}
+.baby-cover img{width:100%;height:100%;min-height:280px;max-height:620px;object-fit:cover;display:block}
+body[data-brand="baby"] .brand-area{padding-top:0}
+body[data-brand="baby"] .baby-panel{border-radius:0 0 28px 28px}
+body[data-brand="baby"][data-direction="1"] .baby-panel{background:#efd3ce;color:#211e20}
+body[data-brand="baby"][data-direction="2"] .baby-panel{background:#222b27;color:#f4f1e9}
+body[data-brand="baby"][data-direction="2"] .baby-panel .text-link{color:inherit}
+@media(min-width:760px){.brand-switch{padding-inline:4vw}.baby-panel{grid-template-columns:minmax(0,1fr) minmax(320px,.9fr)!important;min-height:540px}.baby-cover,.baby-cover img{height:100%;min-height:440px}}
+@media(prefers-reduced-motion:reduce){.brand-switch button{transition:none}.brand-switch button:hover{transform:none}}
